@@ -4,7 +4,7 @@
   "description": "Un proyecto de pratica",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jonalibcast/api_rest_proyecto#readme",
   "dependencies": {
+    "mysql2": "^2.0.0",
     "sequelize": "^5.21.2"
   }
 }
